@@ -1,0 +1,44 @@
+body {
+	max-width: 850 px;
+	}
+
+.navigation {
+	text-align: left;
+	border-bottom: 2px solid #000;
+	padding: 20px 0px 17px 20px;
+	margin-top: 10px;
+	font-family: helvetica;
+	}
+	
+a:link {
+	text-decoration: none;
+	color: #000;
+	}
+	
+a:visited {
+	text-decoration: none
+	color: #000;
+	}
+	
+a:hover {
+	color: #ff9966;
+	}
+
+.title {
+	text-align: center;
+	padding-top: 275px;
+	}
+	
+.dudes {
+	text-align: center;
+	}
+	
+.wow {
+	padding-left: 500px;
+	}
+
+.amaze {
+	padding-left: 1000px;
+		}
+		
+		
