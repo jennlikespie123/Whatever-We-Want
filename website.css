@@ -4,11 +4,15 @@ body {
 
 .navigation {
 	text-align: left;
+	font-size: 90%;
 	padding: 20px 0px 17px 20px;
 	margin-top: 10px;
 	font-family: helvetica;
+	background-color: #ff9966;
 	}
-	
+
+a { color: #000;}
+
 a:link {
 	text-decoration: none;
 	color: #000;
@@ -16,11 +20,23 @@ a:link {
 	
 a:visited {
 	text-decoration: none
-	color: #000;
+	color: #ff9966;
 	}
 	
 a:hover {
-	color: #ff9966;
+	color: #ffcc99;
+	}
+	
+.intro {
+	padding-top: 10px;
+	}
+	
+.steps {
+	padding: 100px 0px 0px 50px;
+	}
+	
+.stepstext {
+	background-color: #ffceb9;
 	}
 
 .title {
