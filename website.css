@@ -4,10 +4,10 @@ body {
 
 .navigation {
 	text-align: left;
-	font-size: 90%;
+	font-size: 80%;
 	padding: 20px 0px 17px 20px;
 	margin-top: 10px;
-	font-family: helvetica;
+	font-family: futura;
 	background-color: #ff9966;
 	}
 
@@ -20,7 +20,7 @@ a:link {
 	
 a:visited {
 	text-decoration: none
-	color: #ff9966;
+	color: #000;
 	}
 	
 a:hover {
@@ -32,11 +32,39 @@ a:hover {
 	}
 	
 .steps {
-	padding: 100px 0px 0px 50px;
+	padding: 30px 0px 0px 20px;
 	}
 	
 .stepstext {
-	background-color: #ffceb9;
+	background-color: rgb(255,204,153, 0.75);
+	padding: 30px 30px;
+	font-family: futura;
+	font-size: 130%;
+	}
+	
+.history {
+	background-color: rgb(255,204,153, 0.75);
+	padding: 30px 30px;
+	font-family: futura;
+	font-size: 100%;
+	line-height: 24px;
+	}
+	
+.oldhat3 {
+	float: left;
+	margin-left: 220px;
+	padding-top: 50px;
+	}
+
+.oldhat4 {
+	float: right;
+	margin-right: 220px;
+	}
+	
+.caption {
+	text-align: center;
+	font-family: futura;
+	font-size: 90%;
 	}
 
 .title {
@@ -55,5 +83,3 @@ a:hover {
 .amaze {
 	padding-left: 1000px;
 		}
-		
-		
