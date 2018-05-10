@@ -39,7 +39,8 @@ a:hover {
 	background-color: rgb(255,204,153, 0.75);
 	padding: 30px 120px;
 	font-family: futura;
-	font-size: 130%;
+	font-size: 200%;
+	line-height: 2;
 	}
 
 
@@ -114,6 +115,7 @@ a:hover {
 	
 .contact {
 	padding-top: 30px;
+	text-align: justify;
 	}
 	
 .contacttext {
@@ -122,4 +124,56 @@ a:hover {
 	font-family: futura;
 	font-size: 100%;
 	line-height: 24px;
+	}
+
+
+
+@media only screen and (max-device-width: 600px) {
+
+.historytext {
+	line-height: 1.5;
+	}
+	
+.caption {
+	font-size: 9pt;
+	}
+
+.questionstext {
+	line-height: 1.5;
+	}
+	
+.threeimages {
+	margin: 0;
+	}
+	
+.upload {
+	text-align: center;
+	background-color: rgb(255,204,153, 0.75);
+	padding: 0px 0px 30px 0px;
+	}
+	
+input {
+	font-size:2em;
+	border: 3px solid gray;
+	}
+	
+.steps {
+	width: 200%;
+	}
+	
+.history {
+	width: 200%;
+	}
+	
+.questions {
+	width: 200%;
+	}
+	
+.photo {
+	width: 200%;
+	}
+	
+.contact {
+	width:200%;
+	}
 	}
