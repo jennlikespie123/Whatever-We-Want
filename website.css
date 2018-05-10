@@ -130,6 +130,10 @@ a:hover {
 
 @media only screen and (max-device-width: 600px) {
 
+.navigation {
+	display: none;
+	}
+
 .historytext {
 	line-height: 1.5;
 	}
@@ -157,23 +161,27 @@ input {
 	border: 3px solid gray;
 	}
 	
-.steps {
-	width: 200%;
+.steps img {
+	width: 50%;
 	}
 	
-.history {
-	width: 200%;
+.history img {
+	width: 100%;
 	}
 	
-.questions {
-	width: 200%;
+.questions img {
+	width: 75%;
 	}
 	
-.photo {
-	width: 200%;
+.photo img {
+	width: 100%;
 	}
 	
-.contact {
-	width:200%;
+.contact img {
+	width:50%;
+	}
+
+.join {
+	padding-bottom: 35px;
 	}
 	}
